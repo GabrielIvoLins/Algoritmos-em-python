@@ -9,7 +9,7 @@ n1 = float(input('--> '))
 n2 = float(input('--> '))
 operador = input('Digite um operador matemático: ')
 
-'''Abaixo cada estrutura condicional ira verificar se na variavel |sinal|
+'''Abaixo cada estrutura condicional ira verificar se na variavel |operador|
 tem os seguintes sinais: *, /, -, +,**,% e realizar a operação matemática de
 accordo com o sinal inserido pelo usuário.
 '''
