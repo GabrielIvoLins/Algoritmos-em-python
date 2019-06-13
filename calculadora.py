@@ -11,7 +11,7 @@ operador = input('Digite um operador matemático: ')
 
 '''Abaixo cada estrutura condicional ira verificar se na variavel |operador|
 tem os seguintes sinais: *, /, -, +,**,% e realizar a operação matemática de
-accordo com o sinal inserido pelo usuário.
+acordo com o operador inserido pelo usuário.
 '''
 
 if operador == '*':
@@ -40,4 +40,4 @@ elif operador == '**':
     print('O resultado da potenciação é %.2f'% potenciacao)
 
 else:
-    print('operador invalido!')
+    print('Operador invalido!')
