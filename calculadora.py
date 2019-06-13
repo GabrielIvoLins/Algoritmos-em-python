@@ -4,7 +4,7 @@ __author__ = 'Gabriel Ivo Lins'
 
 print('Digite dois números:')# Imprime uma mensagem
 # n1 e n2 recebem números digitados pelo usuário
-# sinal recebe um sinal matemático digitado pelo usuário
+# operador recebe um operador matemático digitado pelo usuário
 n1 = float(input('--> '))
 n2 = float(input('--> '))
 operador = input('Digite um operador matemático: ')
@@ -40,4 +40,4 @@ elif operador == '**':
     print('O resultado da potenciação é %.2f'% potenciacao)
 
 else:
-    print('Sinal invalido!')
+    print('operador invalido!')
