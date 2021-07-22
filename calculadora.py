@@ -19,8 +19,12 @@ if operador == '*':
     print('O resultado da multiplicação é: %.2f' % mult)
 
 elif operador == '/':
-    div = n1 / n2
-    print('O resultado da divisão é: %.2f' % div)
+    if n2 != 0:
+       div = n1 / n2
+       print('O resultado da divisão é: %.2f' % div)
+    
+    else:
+        print("Não existe divisão por 0!")
 
 elif operador == '%':
     # o modulo % exibi o resto de uma divisão
@@ -29,7 +33,7 @@ elif operador == '%':
 
 elif operador == '-':
     sub = n1 - n2
-    print('O resultado da subtrasão é: %.2f' % sub)
+    print('O resultado da subtração é: %.2f' % sub)
 
 elif operador == '+':
     adicao = n1 + n2
